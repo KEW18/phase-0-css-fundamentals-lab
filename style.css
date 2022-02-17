@@ -2,4 +2,90 @@ body {
   width: 100%;
   height: 100%;
   margin: 0;
+  
+
+}
+
+h1, a, header {
+
+  text-align: center;  
+
+}
+
+/* create this wrapper to display inline*/
+.main-nav {
+ 
+  display: inline-block;
+
+}
+
+/* created ids for nav buttons to separate them for styling */
+
+#about, #new, #listings, #market, #first-contact, #hud {
+
+  float: left;
+  margin-left: 10px;
+  background-color: lightgray;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+  
+  #featured-property { 
+  text-align: center;
+
+}
+
+/*added img command*/
+img {
+width:900px;  
+}
+
+/*added a description div to differentiate from the 'Details-contact info' paragraphs and allow 800px width*/
+#description p {
+  width: 800px;
+  text-align: center;
+}
+
+  #contact-info{
+    background-color: red;
+   
+  }
+    
+p {
+  margin:auto;
+
+}
+  
+#contact {
+  float:left;
+  width: 25%;
+  background-color: red;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+#corro {
+  float:left;
+  width: 25%;
+  background-color: red;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+#links {
+  float:left;
+  width: 25%;
+  background-color: red;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+#follow {
+  float:left;
+  width: 25%;
+  background-color: red;
+  text-align: center;
+  padding-bottom: 20px;
+
 }
